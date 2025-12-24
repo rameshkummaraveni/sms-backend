@@ -33,6 +33,7 @@ public class StudentController {
     }
 
     //Build get all students rest API
+    // getting all students here
     @GetMapping
     public ResponseEntity<List<StudentDto>> getAllStudents() {
         List<StudentDto> students = studentService.getAllStudents();
